@@ -21,8 +21,6 @@
 
 int main(void)
 {
-	DIO_voidSetPinDir(DIO_PORTD,DIO_PIN0,INPUT);
-	DIO_voidSetPinDir(DIO_PORTD,DIO_PIN1,OUTPUT);
 	UART_voidInit();
 	
 	
